@@ -10,9 +10,9 @@ body,html{
     }
 
 main {
-     height: 80%;
+     height: 40%;
   position: relative;
-  background-image: linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%,  rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );    
+  background-image: linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%,   rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );    
     }
 
      
@@ -31,8 +31,7 @@ main {
   font-weight: 600;
   letter-spacing: -0.055em;
   margin-bottom: 150vh;
-   }
-
+}
 h5 {
   display: block;
   margin: 0 auto 60px auto;
@@ -41,10 +40,19 @@ h5 {
   font-size: 1.25em;
   letter-spacing: -0.015em;
 }
+
+#result{ 
+  background-color: black;
+  height: 60%;
+
+}
+
+
     .searchbar{
     margin-bottom: auto;
     margin-top: auto;
     height: 60px;
+    width: 80%;
     background-color: white;
     border-radius: 30px;
     padding: 10px;
