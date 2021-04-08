@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    }
+
+main {
+     height: 80%;
+  position: relative;
+  background-image: linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%,  rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );    
+    }
+
+     
+    header {
+      background-color:black;
+      height: 10vh;
+      width: 100%;
+   
+    }
+
+   h1 {
+  display: block;
+  margin: 0 auto 25px auto;
+  text-align: center;
+  font-size: 1.92em;
+  font-weight: 600;
+  letter-spacing: -0.055em;
+  margin-bottom: 150vh;
+   }
+
+h5 {
+  display: block;
+  margin: 0 auto 60px auto;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.25em;
+  letter-spacing: -0.015em;
+}
+    .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+   
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
